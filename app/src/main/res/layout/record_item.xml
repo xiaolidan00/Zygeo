@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+    <TextView
+        android:id="@+id/recorditem_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" />
+    <ImageView
+        android:id="@+id/recorditem_img"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="9dp"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/recorditem_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textColor="@color/gray"
+        android:gravity="bottom|right"/>
+</LinearLayout>

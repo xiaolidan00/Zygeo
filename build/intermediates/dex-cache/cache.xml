@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\Android\Zygeo\app\libs\Amap_2DMap_V5.2.0_20170627.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="15d491b0412f57284157d356bfcb9d6ea017226f">
+        <dex dex="E:\Android\Zygeo\app\build\intermediates\pre-dexed\debug\Amap_2DMap_V5.2.0_20170627_6925a610b600125bfe846dea52c6c7d2ed92d484.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\Zygeo\app\libs\AMap_Location_V3.5.0_20170731.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a02816310bcf897ef35496950110a65b495574a7">
+        <dex dex="E:\Android\Zygeo\app\build\intermediates\pre-dexed\debug\AMap_Location_V3.5.0_20170731_ca5434b271faf8bf249e11a9eeddb13431f0fb99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\Zygeo\app\libs\AMap_Search_V5.2.1_20170630.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d724566d4793345f4de3654286ca47492a8b4398">
+        <dex dex="E:\Android\Zygeo\app\build\intermediates\pre-dexed\debug\AMap_Search_V5.2.1_20170630_f78c1a4d7e1a63d8ec62e3b27accff2528ffa027.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\xiao\.gradle\caches\modules-2\files-2.1\eu.the4thfloor.volley\com.android.volley\2015.05.28\b0b08cc0ac897e596abe6b263a9507cba875b705\com.android.volley-2015.05.28.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b0b08cc0ac897e596abe6b263a9507cba875b705">
+        <dex dex="E:\Android\Zygeo\app\build\intermediates\pre-dexed\debug\com.android.volley-2015.05.28_e6d30bb404f9465a61b532d191f056bc4aa0e9f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\Zygeo\app\libs\Android_Map3D_SDK_V5.2.1_20170630.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="031c03ab465147953d1d9282887e5df2d17768b8">
+        <dex dex="E:\Android\Zygeo\app\build\intermediates\pre-dexed\debug\Android_Map3D_SDK_V5.2.1_20170630_9ea201c02adae44157789f78990863efc5340c1d.jar" />
+    </item>
+
+</items>

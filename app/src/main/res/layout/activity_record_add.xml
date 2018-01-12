@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/m8dp"
+    android:orientation="vertical"
+    tools:context="com.xiao.zygeo.record.RecordAddActivity">
+
+<EditText
+    android:id="@+id/ed_title"
+    android:hint="中药名称"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/m8dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/m4dp">
+        <TextView
+            android:id="@+id/recordadd_lng"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="经度：" />
+
+        <TextView
+            android:id="@+id/recordadd_lat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="纬度：" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/recordadd_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="地址："
+        android:layout_margin="@dimen/m4dp"/>
+    <EditText
+        android:id="@+id/ed_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:singleLine="false"
+        android:hint="记录内容"
+        android:gravity="top|start"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:id="@+id/add_photo"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/addimg"
+            android:layout_width="64dp"
+            android:layout_height="80dp"
+            android:layout_margin="@dimen/m4dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_add_pic"/>
+
+    </LinearLayout>
+</LinearLayout>
